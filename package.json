@@ -1,0 +1,33 @@
+{
+  "name": "tareas_todo_list",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "mongoose": "^4.12.1",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "description": "todo list con express generator backend basico para practica",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanueljcc/tareas_todo_list.git"
+  },
+  "author": "@emanueljcc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emanueljcc/tareas_todo_list/issues"
+  },
+  "homepage": "https://github.com/emanueljcc/tareas_todo_list#readme"
+}
